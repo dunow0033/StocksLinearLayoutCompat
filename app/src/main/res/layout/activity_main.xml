@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/targetPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target Price"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="12dp" />
+
+    <View
+        android:id="@+id/divider_1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/percentageChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Percentage Change"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="12dp" />
+
+    <View
+        android:id="@+id/divider_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/movingAverage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Moving Average"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="12dp" />
+
+    <View
+        android:id="@+id/divider_3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/newsEvents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="News and Events"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:padding="12dp" />
+
+    <View
+        android:id="@+id/divider_4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
